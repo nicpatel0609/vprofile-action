@@ -21,7 +21,7 @@ jobs:
       - name: set java 11
         uses: actions/setup-java@v3
         with:
-          distributer: 'temurin'
+          distribution: 'temurin'
           java-version: '11'
 
       - name: setup sonarcube
